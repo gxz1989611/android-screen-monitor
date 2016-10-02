@@ -1,2 +1,2 @@
 #!/bin/sh
-java -jar asm.jar $ANDROID_HOME
+java -jar target/asm.jar $ANDROID_HOME
