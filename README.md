@@ -2,6 +2,7 @@
 
 ## 更改
  * 使用Maven管理项目
+ * 执行mvn clean package 即可打包,如果打包成功执行run.sh即可.
 
 
 ## Overview
