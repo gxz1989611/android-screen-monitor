@@ -12,27 +12,32 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <com.android.tools.version>25.2.0</com.android.tools.version>
     </properties>
 
     <dependencies>
         <dependency>
+            <groupId>net.sf.sociaal</groupId>
+            <artifactId>chimpchat</artifactId>
+            <version>22.6.3</version>
+        </dependency>
+
+        <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>13.0.1</version>
+            <version>18.0</version>
         </dependency>
+
         <dependency>
-            <groupId>com.android</groupId>
-            <artifactId>chimpchat</artifactId>
-            <version>22.2.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/chimpchat-22.2.0.jar</systemPath>
+            <groupId>com.android.tools</groupId>
+            <artifactId>common</artifactId>
+            <version>${com.android.tools.version}</version>
         </dependency>
+
         <dependency>
-            <groupId>com.android</groupId>
+            <groupId>com.android.tools.ddms</groupId>
             <artifactId>ddmlib</artifactId>
-            <version>22.2.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/ddmlib-22.2.0.jar</systemPath>
+            <version>${com.android.tools.version}</version>
         </dependency>
     </dependencies>
 
